@@ -1,11 +1,11 @@
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Young Serif;
   font-size: 16px;
   font-weight: 400;
 }
 .container {
-  background-color: burlywood;
-  padding: 10% 30%;
+  background-color: hsl(30, 54%, 90%);
+  padding: 5% 30%;
   /* width: 500px;
   border-radius: 20px;
   height: 1900px;
@@ -29,8 +29,9 @@ img {
 .Preparation {
   padding: 5px;
 }
+
 .text {
-  color: brown;
+  color: hsl(14, 45%, 36%);
 }
 .list {
   padding: 0;
@@ -43,6 +44,9 @@ img {
   gap: 100px;
   padding-left: 50px;
   /* box-sizing: border-box; */
+}
+p{
+  font-size: 16px;
 }
 .row {
   display: inline-flex;
@@ -57,7 +61,7 @@ img {
   .container{
     padding: 10% 5%;
   }
-  .column{
-    padding-left: 20px;
+  .row{
+    padding-left: 40px;
   }
 }
